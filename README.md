@@ -19,14 +19,14 @@ You can install the required Python packages using pip:
   process_frame(frame)
 This function processes each frame of the video to detect lane lines. The process involves:
 
-Grayscale Conversion: Converts the frame to grayscale to simplify processing.
-Gaussian Blur: Applies a Gaussian blur to reduce noise in the image.
-Canny Edge Detection: Highlights the edges in the frame to make lane markings more prominent.
-Region of Interest (ROI) Masking: Masks the image to focus on the road area where lane lines are typically located.
-Hough Line Transform: Detects straight lines in the masked image.
-Line Classification: Classifies detected lines into left and right lane lines based on slope.
-Lane Line Drawing: Draws green and red lines on the detected left and right lanes, respectively.
-Video Processing
+ - Grayscale Conversion: Converts the frame to grayscale to simplify processing.
+ - Gaussian Blur: Applies a Gaussian blur to reduce noise in the image.
+ - Canny Edge Detection: Highlights the edges in the frame to make lane markings more prominent.
+ - Region of Interest (ROI) Masking: Masks the image to focus on the road area where lane lines are typically located.
+ - Hough Line Transform: Detects straight lines in the masked image.
+ - Line Classification: Classifies detected lines into left and right lane lines based on slope.
+ - Lane Line Drawing: Draws green and red lines on the detected left and right lanes, respectively.
+## Video Processing
 The script reads a video file, processes each frame using the process_frame function, and writes the processed frames to an output video.
 The processed video displays the detected lane lines on the road.
 How to Use
