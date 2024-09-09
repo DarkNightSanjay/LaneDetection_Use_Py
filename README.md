@@ -13,10 +13,10 @@ Before running the script, ensure you have the following installed:
 You can install the required Python packages using pip:
 
 
-  pip install opencv-python numpy
+    pip install opencv-python numpy
 
 ## Script Description
-  process_frame(frame)
+    process_frame(frame)
 This function processes each frame of the video to detect lane lines. The process involves:
 
  - Grayscale Conversion: Converts the frame to grayscale to simplify processing.
