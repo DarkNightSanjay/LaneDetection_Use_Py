@@ -40,6 +40,6 @@ Run the Script: Execute the script using Python. The script will read the input 
     Input Video Path: C:\\Users\\4a Freeboard\\Videos\\Mount_Road.mp4
     Output Video Path: C:\\Users\\4a Freeboard\\Videos\\lane_detection_output.mp4
 ## Notes
-Ensure that the input video file exists and the specified paths are correct.
-You can change the input and output paths as needed by modifying the video_path and output_path variables in the script.
-The output video will be saved in the MP4 format using the mp4v codec.
+ - Ensure that the input video file exists and the specified paths are correct.
+ - You can change the input and output paths as needed by modifying the video_path and output_path variables in the script.
+ - The output video will be saved in the MP4 format using the mp4v codec.
