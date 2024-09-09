@@ -35,10 +35,10 @@ Place Your Input Video: Ensure the input video file is located at the specified 
 Run the Script: Execute the script using Python. The script will read the input video, apply lane detection, and save the processed video to the specified output path.
 
 
-  python lane_detection.py
+    python lane_detection.py
 ## Example Paths
-  Input Video Path: C:\\Users\\4a Freeboard\\Videos\\Mount_Road.mp4
-  Output Video Path: C:\\Users\\4a Freeboard\\Videos\\lane_detection_output.mp4
+    Input Video Path: C:\\Users\\4a Freeboard\\Videos\\Mount_Road.mp4
+    Output Video Path: C:\\Users\\4a Freeboard\\Videos\\lane_detection_output.mp4
 ## Notes
 Ensure that the input video file exists and the specified paths are correct.
 You can change the input and output paths as needed by modifying the video_path and output_path variables in the script.
